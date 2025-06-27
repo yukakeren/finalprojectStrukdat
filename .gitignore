@@ -1,5 +1,21 @@
-.vscode
-.cph
+# IDE/editor settings
+.vscode/
+
+# Code runner / temp
+.cph/
+
+# Executables (hasil kompilasi)
 benchmark
-launcher 
+launcher
 menu
+
+# Object files
+*.o
+
+# Build directories
+build/
+
+# Disk images, core dumps, logs
+*.img
+core
+*.log
